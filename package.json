@@ -14,7 +14,11 @@
   ],
   "author": "Olivier Lépine <olivier@lepine.fr>",
   "homepage": "https://github.com/crapougnax/positive-common",
-  "license": "IC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crapougnax/positive-common"
+  },
+  "license": "ISC",
   "devDependencies": {
     "@types/jest": "^24.0.16",
     "jest": "^24.8.0",
