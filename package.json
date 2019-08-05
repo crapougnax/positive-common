@@ -1,0 +1,33 @@
+{
+  "name": "@crapougnax/positive-common",
+  "version": "0.4.0",
+  "description": "Common utilities for the Positive App",
+  "main": "build/index.js",
+  "module": "module/index.es.js",
+  "jsnext:main": "build/index.es.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c"
+  },
+  "files": [
+    "build"
+  ],
+  "author": "Olivier Lépine <olivier@lepine.fr>",
+  "license": "BSD",
+  "devDependencies": {
+    "@types/jest": "^24.0.16",
+    "jest": "^24.8.0",
+    "rollup": "^1.18.0",
+    "rollup-plugin-commonjs": "^10.0.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-typescript2": "^0.22.1",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "dependencies": {}
+}
