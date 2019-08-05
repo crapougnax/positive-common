@@ -3,7 +3,7 @@
   "version": "0.4.0",
   "description": "Common utilities for the Positive App",
   "main": "build/index.js",
-  "module": "module/index.es.js",
+  "module": "build/index.es.js",
   "jsnext:main": "build/index.es.js",
   "scripts": {
     "test": "jest",
@@ -13,7 +13,8 @@
     "build"
   ],
   "author": "Olivier Lépine <olivier@lepine.fr>",
-  "license": "BSD",
+  "homepage": "https://github.com/crapougnax/positive-common",
+  "license": "IC",
   "devDependencies": {
     "@types/jest": "^24.0.16",
     "jest": "^24.8.0",
