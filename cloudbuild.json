@@ -10,25 +10,23 @@
   {
       "name": "gcr.io/cloud-builders/npm",
       "args": [
-          "install"
+        "install"
       ]
   },
   {
     "name": "gcr.io/cloud-builders/npm",
     "args": [
-        "test"
+      "test"
     ]
   },
   {
     "name": "gcr.io/cloud-builders/npm",
     "args": [
-        "run",
-        "ci-publish",
-        "||",
-        "true"
+      "run",
+      "ci-publish || true"
     ],
     "env": [
-      "NPM_TOKEN=provided-by-cloud-build"
+      "NPM_TOKEN=$_NPM_TOKEN"
     ]
   }
   ]
