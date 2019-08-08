@@ -7,7 +7,8 @@
   "jsnext:main": "build/index.es.js",
   "scripts": {
     "test": "jest",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "ci-publish": "ci-publish"
   },
   "files": [
     "build"
@@ -28,11 +29,13 @@
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-typescript2": "^0.22.1",
     "ts-jest": "^24.0.2",
-    "typescript": "^3.5.3"
+    "typescript": "^3.5.3",
+    "ci-publish": "^1.3.1"
   },
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node"
   },
-  "dependencies": {}
+  "dependencies": {
+  }
 }
