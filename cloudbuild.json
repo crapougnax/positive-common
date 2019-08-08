@@ -23,7 +23,9 @@
     "name": "gcr.io/cloud-builders/npm",
     "args": [
         "run",
-        "ci-publish ||true"
+        "ci-publish",
+        "||",
+        "true"
     ],
     "env": [
       "NPM_TOKEN=provided-by-cloud-build"

@@ -1,6 +1,6 @@
 {
   "name": "@crapougnax/positive-common",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Common utilities for the Positive App",
   "main": "build/index.js",
   "module": "build/index.es.js",
